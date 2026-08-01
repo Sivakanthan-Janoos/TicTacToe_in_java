@@ -94,7 +94,7 @@ public class TicTacToe
             }
         }
 
-         //vertical
+        //vertical
         for (int c = 0; c < 3; c++) 
 		{
             if (board[0][c].getText().isEmpty()) continue;
@@ -109,7 +109,7 @@ public class TicTacToe
             }
         }
 
-         //diagonally
+        //diagonally
         if (board[0][0].getText() == board[1][1].getText() &&
             board[1][1].getText() == board[2][2].getText() &&
             !board[0][0].getText().isEmpty()) {
@@ -120,7 +120,7 @@ public class TicTacToe
             return;
         }
 
-         //anti-diagonally
+        //anti-diagonally
         if (board[0][2].getText() == board[1][1].getText() &&
             board[1][1].getText() == board[2][0].getText() &&
             !board[0][2].getText().isEmpty()) {
@@ -157,7 +157,7 @@ public class TicTacToe
 
     public static void main(String[] args) throws Exception 
 	{
-        TicTacToe Frame = new TicTacToe();
+        new TicTacToe();
     }
 }
 
