@@ -53,8 +53,6 @@ public class TicTacToe
                 tile.setForeground(Color.white);
                 tile.setFont(new Font("Arial", Font.BOLD, 120));
                 tile.setFocusable(false);
-
-                // tile.setText(currentPlayer);
     
                    tile.addActionListener(new ActionListener() 
     			   {
